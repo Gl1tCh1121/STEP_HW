@@ -38,18 +38,15 @@ while True:
 
 # N4 
 
-list = ["a", "e", "i","o", "u"]
+vowels = ["a", "e", "i","o", "u"]
 filterd_text = ""
 text = input("Text: ")
-length = len(text)
 
-
-while length != 0:
-    length -= 1
-    if text[length] not in list:
-        filterd_text += text[length]
+for ch in text:
+    if ch not in vowels:
+        filtered_text += ch
     
-print(filterd_text)
+print(filtered_text)
 
 
 # N5
