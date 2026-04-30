@@ -39,7 +39,7 @@ while True:
 # N4 
 
 vowels = ["a", "e", "i","o", "u"]
-filterd_text = ""
+filtered_text = ""
 text = input("Text: ")
 
 for ch in text:
