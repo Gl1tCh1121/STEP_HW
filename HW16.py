@@ -77,11 +77,11 @@ class CryptoPayment:
 
 
 class Car:
-    total_cars = 0  # Class variable
+    total_cars = 0  
 
     def __init__(self, brand):
         self.brand = brand
-        Car.total_cars += 1  # რაოდენობის გაზრდა ყოველი ობიექტის შექმნისას
+        Car.total_cars += 1  
 
     @classmethod
     def get_total_cars(cls):
